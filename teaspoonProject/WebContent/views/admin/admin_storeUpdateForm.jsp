@@ -20,29 +20,44 @@
         <div id="contents">
             <div id="c1" style="margin-top: 20px;">
                 <div class="outer" >
-                    <p>커피 상품 수정</p>
+                    <p>상품 수정</p>
                     
                     <form id="insertForm" action="insert.th" method="post" enctype="multipart/form-data">
                         <table>
-                            <tr>
-                                <th>상품번호</th>
-                                <th>상품명</th>
-                                <th>검색키워드</th>
-                                <th>판매가(원)</th>
-                                <th>상품옵션</th>
-                                <th>재고</th>
-                                <th>노출여부</th>
-                                
-                            </tr>
-                            <tr>
-                              <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
-                            </tr>
+                           	<tr>
+							<th>상품번호</th>
+							<th>상품명</th>
+							<th>판매가(원)</th>
+							<th>상품옵션</th>
+							<th>재고</th>
+							<th>검색키워드</th>
+
+						</tr>
+                           <tr>
+							<td>
+								<input type="text" size="7px" readonly placeholder="자동등록">
+							</td>
+							<td><input type="text" size="7px"></td>
+							<td><input type="text" size="7px"></td>
+							<td><input type="text" size="7px"></td>
+							<td><input type="text" size="7px"></td>
+							<td>
+								<select name="keyword">
+								<option value="부드러운">부드러운</option>
+								<option value="달콤한">달콤한</option>
+								<option value="초콜릭같은">초콜릿같은</option>
+								<option value="과일향">과일향</option>
+								<option value="뻇지">뺏지</option>
+								<option value="튼튼한">튼튼한</option>
+								<option value="동글동글한">동글동글한</option>
+							</td>
+
+						</tr>
+						<tr>
+							<td>노출여부</td>
+							<td><input type="radio" name="status" value="Y">Y</td>
+							<td><input type="radio" name="status" value="N">N</td>
+						</tr>
                             <tr >
                                 <th>대표이미지</th>
                                 <td colspan="7" style="height: 120px;" >

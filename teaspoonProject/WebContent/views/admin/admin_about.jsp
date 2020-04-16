@@ -28,21 +28,23 @@
                         <div id="c1_1_1_1"><img src="어바웃.png" width="50px"></div>
                         <div id="c1_1_1_2"><p>어바웃티스푼 페이지입니다.</h3></div>
                         <div id="c1_1_1_3">
-                            <input type="text" placeholder="제목" name="idName">
+                             <input type="text" placeholder="키워드" name="keyword">
                             <button type="button" id="btn">검색</button>
                         </div>
                     </div>
                     <div id="c1_1_2" >
                         <table>
                             <tbody>
-                                <tr>
-                                    <th>글번호</th>
-                                    <th>제목</th>
-                                    <th>작성자</th>
-                                    <th>작성일</th>
-                                    <th>상태</th>
+                                 <tr>
+                                     <th width="70">글번호</th>
+                                    <th width="150">제목</th>
+                                    <th width="70">조회수</th>
+                                    <th width="90">작성일</th>
+                                    <th width="90">수정일</th>
+                                    <th width="70">상태</th>
+                                    <th width="100">상세보기</th>
                                     <th>
-                                        <button id="addPage"><a href="adminAboutEnrollForm.html">추가</a></button>
+                                        <button><a href="adminEventEnrollForm.html">추가</a></button>
                                     </th>
                                 </tr>
                             </tbody>
@@ -51,9 +53,11 @@
                                 <tr>
                                     <td>1</td>
                                     <td>Tea spoon이야기</td>
-                                    <td>관리자</td>
+                                    <td>10</td>
+                                    <td>20.02.12</td>
                                     <td>20.02.12</td>
                                     <td>Y</td>
+                                    <td><button type="button">이동</button></td>
                                     <td>
                                         <button><a href="adminAboutUpdateForm.html">수정</a></button>
                                         <button>삭제</button>
