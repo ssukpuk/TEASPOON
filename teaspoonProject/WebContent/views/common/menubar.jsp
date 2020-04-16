@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../resources/css/reset.css">
-    <link rel="stylesheet" href="../../resources/css/menubar.css">
+    <link rel="stylesheet" href="../../resources/css/common/reset.css">
+    <link rel="stylesheet" href="../../resources/css/common/menubar.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
@@ -57,7 +57,7 @@
                         
                     </div>
                     <img id="myPage_icon" src="사이트이미지/메인/마이페이지.png">
-                    <div id="mypage">
+                    <div id="header_mypage">
                         <ul>
                             <li id="login_li"><button id="login">로그인</button></li>
                             <li>마이티스푼</li>
