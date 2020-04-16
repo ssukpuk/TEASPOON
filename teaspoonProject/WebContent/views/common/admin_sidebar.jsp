@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<% String contextPath = request.getContextPath(); %>
 <!DOCTYPE html>
+<% String contextPath = request.getContextPath();%>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
     <!--부트스트랩 끝-->
     <script src=" http://code.jquery.com/jquery-latest.min.js" language="javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link href="<%=contextPath%>/resources/css/admin/admin_common.css" rel="stylesheet">
+   <link href="<%=contextPath%>/resources/css/admin/admin_common.css" rel="stylesheet">
     
     <script>
         $(function(){
@@ -39,19 +39,6 @@
             });
         });
     </script>
-
-<style>
-    #c1_1_2 div{padding-left: 25px; float:left;}
-    #oneToOneKinds input{margin-right: 5px; vertical-align: middle;}
-    table tr{border-bottom: 1px solid lightgray;}
-    table tr:first-child{border-top: 1px solid lightgray;}
-    table th{background-color: #dbdbdb;}
-    table * {padding: 5px; font-size: 18px; margin: auto;}
-    table th{text-align: center;}
-    .outer p{margin-top: 30px; margin-bottom: 30px; font-size: 30px; font-weight: bold;}        
-    table th{width: 100px;}
-    #c1_2 div{float: left;}
-</style>
 
 
 </head>
@@ -122,9 +109,6 @@
             <br>
             </ul>
         </div>
-        <div id="contents">
-            
-        </div>
-    </div>  
+         
 </body>
 </html>

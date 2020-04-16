@@ -20,6 +20,7 @@ text-decoration: none;
 color: lightcoral;
 }
 div{
+
  box-sizing: border-box;
 }
 #wrap {width: 1202px; height: 700px; margin: 0 auto; text-align: center; text-transform: uppercase; margin-bottom: 100px;}
