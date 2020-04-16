@@ -5,17 +5,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="mypage address1.css">
+ 	<link rel="stylesheet" href="../../resources/css/myPage/mypage_address1.css">
+	<link rel="styleSheet" href="../../resources/css/common/menubar.css">
+	<link rel="styleSheet" href="../../resources/css/common/footer.css">
+
+
+	
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
     <style>
         #banner {height: 170px; line-height: 170px; background:url("패턴 - 복사본.jpg") center top repeat-x;}
     </style>
 </head>
 <body>
-<div id="wrap">
-        <div id="header">
-            <div class="contaniner">여기는메뉴바</div>
-        </div>
+ <div id="wrap">
+      
+      	<%@ include file="../common/menubar.jsp" %>
         <!-- //header -->
         <div id="banner">
             <div class="contaniner title">마이페이지</div>
@@ -28,7 +32,7 @@
                         <div id="mypage_info">
                             <div class="user_info" style="width:95px; border-left:1px solid #bebbb6">
                                 <div class="user_photo" style="margin-top:30px; padding-left:10px; float: left;">
-                                    <img src="사이트이미지/user.png">
+                                    <img src="">
                                 </div>
                             </div>
                             <div class="user_info" style="width:450px;">
@@ -111,9 +115,7 @@
                 </div>
         </div>
         <!-- //content-->
-        <div id="footer">
-            <div class="contaniner">footer</div>
-        </div>
+           <%@ include file="../common/footer.jsp" %>
         <!-- //footer-->
     </div>
     <script>

@@ -50,7 +50,7 @@ body, input, textarea, select, button, table {
     display: block;
     height:100%;
 }
-#mypage{position: relative; width:230px; display:none;}
+#mypage{position: relative; width:230px; }
 #mypage>img{display:block; }
 #mypage>ul{position: absolute; top: 115px; width:230px; background: #fff; box-shadow: 0px 10px 10px 10px rgba(144, 144, 144, 0.1)}
 #mypage>ul>li{display:block; font-size:20px; list-style-type: none; height:45px; border-bottom: 1px solid rgb(212, 212, 212); padding-top:15px}
