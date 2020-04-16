@@ -10,21 +10,13 @@
 <link rel="styleSheet" href="../../resources/css/common/menubar.css">
 <link rel="styleSheet" href="../../resources/css/common/footer.css">
 <style>
-	/*전체레이아웃*/
-a{text-decoration: none; color: black;}
-#wrap {text-align: center; font-size: 30px; color: #000000;}
-#content {line-height: inherit; background: #ead5ee;}
-.contaniner {width: 1200px; margin: 0 auto; height: inherit;}
-.contaniner  #head_title{ color: black; font-size: 45px; font-weight: bold;}
-#content1 {width:100%; height:2300px;background: #ffffff; }
-#productArea {height:inherit; margin: 0 100px;}
-.p1 {margin-left:50px; margin-right:50px;}
-.fr {float:right}
+    #content1 {width:100%; height:2300px;background: #ffffff; }
 </style>
 </head>
 <body>
 <div id="wrap">
          <%@ include file="../common/menubar.jsp" %>
+         <div style="height:115px"></div>
         <!-- //header -->
         <div id="banner">
             <div class="contaniner">
@@ -88,14 +80,22 @@ a{text-decoration: none; color: black;}
 
                                 <!--제품상세버튼, 고객리뷰버튼-->
                                 <div class="pList3">
-                                    <p class="">제품상세</p>
-                                    <a href="#review"><p class="">고객리뷰</p></a>
+                                    <p>제품상세</p>
+                                    <a href="#review"><p>고객리뷰</p></a>
                                 </div>
                                 
                                 <!--상품상세페이지-->
                                 <div class="pList4">
                                     <hr>
-                                    리얼 상세페이지
+                                    <div>
+                                    	사진1
+                                    </div>
+                                    <div>
+                                    	설명1
+                                    </div>
+                                    <div>
+                                    	사진2
+                                    </div>
                                 </div>
 
 
