@@ -1,21 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>layout06</title>
-    <link rel="styleSheet" href="totalCss.css">
-    <link rel="styleSheet" href="itemDetailCss.css">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <style>
-        
-    </style>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="styleSheet" href="../../resources/css/store/itemDetail.css">
+<link rel="styleSheet" href="../../resources/css/common/reset.css">
+<link rel="styleSheet" href="../../resources/css/common/menubar.css">
+<link rel="styleSheet" href="../../resources/css/common/footer.css">
+<style>
+	/*전체레이아웃*/
+a{text-decoration: none; color: black;}
+#wrap {text-align: center; font-size: 30px; color: #000000;}
+#content {line-height: inherit; background: #ead5ee;}
+.contaniner {width: 1200px; margin: 0 auto; height: inherit;}
+.contaniner  #head_title{ color: black; font-size: 45px; font-weight: bold;}
+#content1 {width:100%; height:2300px;background: #ffffff; }
+#productArea {height:inherit; margin: 0 100px;}
+.p1 {margin-left:50px; margin-right:50px;}
+.fr {float:right}
+</style>
 </head>
-<body> 
-    <div id="wrap">
-        <div id="header">
-            <div class="contaniner">여기는메뉴바</div>
-        </div>
+<body>
+<div id="wrap">
+         <%@ include file="../common/menubar.jsp" %>
         <!-- //header -->
         <div id="banner">
             <div class="contaniner">
@@ -189,9 +198,7 @@
             </div>
         </div>
         <!-- //content-->
-        <div id="footer">
-            <div class="contaniner">footer</div>
-        </div>
+        <%@ include file="../common/footer.jsp" %>
         <!-- //footer-->
     </div>
 
