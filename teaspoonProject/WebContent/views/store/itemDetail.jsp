@@ -10,13 +10,13 @@
 <link rel="styleSheet" href="../../resources/css/common/menubar.css">
 <link rel="styleSheet" href="../../resources/css/common/footer.css">
 <style>
-	#content1 {width:100%; height:3000px; background: #ffffff; }
-	#banner {float:left;}
+    #content1 {width:100%; height:2300px;background: #ffffff; }
 </style>
 </head>
 <body>
 <div id="wrap">
          <%@ include file="../common/menubar.jsp" %>
+         <div style="height:115px"></div>
         <!-- //header -->
         <div id="banner">
             <div class="contaniner">
