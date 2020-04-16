@@ -1,0 +1,3 @@
+/* 형제 바로 다음요소 선택자  */
+  #navi>li>a:hover+ul{ display:block; }
+  #navi>li>ul:hover{display:block;}
