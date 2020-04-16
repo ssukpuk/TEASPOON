@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +22,7 @@
        <%@ include file="views/common/menubar.jsp" %>
         <br clear="both">
         <div id="banner">
-            <div class="contaniner"><img id="mainImg" src="사이트이미지/메인/메인.jpg"></div>
+            <div class="contaniner"><img id="mainImg" src="<%=contextPath%>/resources/img/main/main.jpg"></div>
         </div>
         <!-- //banner -->
           <div id="content">
@@ -34,7 +35,7 @@
                             <div id="product_item_1"> 
                                 <div>
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/1.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -43,7 +44,7 @@
                                 </div>
                                 <div >
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/2.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -52,7 +53,7 @@
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/3.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -61,7 +62,7 @@
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/4.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -73,7 +74,7 @@
                             <div id="product_item_1"> 
                                 <div>
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/1.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -82,7 +83,7 @@
                                 </div>
                                 <div >
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/2.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -91,7 +92,7 @@
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/3.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -100,7 +101,7 @@
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img src="resources/img/item2_1.jpg" alt="">
+                                        <img src="<%=contextPath %>/resources/img/main/4.jpg" alt="">
                                     </a>
                                     <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                     <p>
@@ -135,12 +136,12 @@
             <div id="content3">
                 <div class="contaniner">
                     <div id="best">
-                        <div class="bestname"><p>BEST COFFEE 20</p></div>
+                        <div class="bestname"><p>BEST COFFEE 4</p></div>
                         <div id="best_item"> 
                             <div class="best_num">
                                 <p class="num">1</p>
                                 <a href="">
-                                    <img src="사이트이미지/메인/1.jpg" alt="">
+                                    <img src="<%=contextPath %>/resources/img/main/4.jpg" alt="">
                                 </a>
                                 <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                 <p>
@@ -150,7 +151,7 @@
                             <div class="best_num">
                                 <p class="num">2</p>
                                 <a href="">
-                                    <img src="사이트이미지/메인/4.jpg" alt="">
+                                    <img src="<%=contextPath %>/resources/img/main/3.jpg" alt="">
                                 </a>
                                 <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                 <p>
@@ -160,7 +161,7 @@
                             <div class="best_num">
                                 <p class="num">3</p>
                                 <a href="">
-                                    <img src="사이트이미지/메인/3.jpg" alt="">
+                                    <img src="<%=contextPath %>/resources/img/main/2.jpg" alt="">
                                 </a>
                                 <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                 <p>
@@ -170,7 +171,7 @@
                             <div class="best_num">
                                 <p class="num">4</p>
                                 <a href="">
-                                    <img src="사이트이미지/메인/2.jpg" alt="">
+                                    <img src="<%=contextPath %>/resources/img/main/1.jpg" alt="">
                                 </a>
                                 <p class="best_product_name"><a href="#">콜롬비아 비오타 팔마레스</a></p>
                                 <p>
@@ -200,14 +201,14 @@
                             <tr>
                                 <td rowspan="2" width="400" height="550">
                                 <p></p>
-                                    <a href="#"><img id="maga" src="사이트이미지/메인/매거진.jpg"></a>
+                                    <a href="#"><img id="maga" src="<%=contextPath %>/resources/img/main/magazine.jpg"></a>
                                 </td>
                                 <td width="600" height="275">
-                                    <a href="#"><img id="eve" src="사이트이미지/메인/이벤트.jpg"></a>
+                                    <a href="#"><img id="eve" src="<%=contextPath %>/resources/img/main/event.jpg"></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td><a href=""><img id="abo" src="사이트이미지/메인/브랜드스토리.jpg"></a></td>
+                                <td><a href=""><img id="abo" src="<%=contextPath %>/resources/img/main/brandstory.jpg"></a></td>
                             </tr>
                         </table>
                     </div>
@@ -218,17 +219,17 @@
                 <div class="contaniner">
                 <div id="insta">
                     <div id="insta_1">
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_1.jpg"></a></div>
-                        <div><a href="" ><img src="사이트이미지/인스타이미지/insta_2.jpg"></a></div>
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_3.jpg"></a></div>
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_4.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_1.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_2.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_3.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_4.jpg"></a></div>
                     </div>
                     <br clear="both">
                     <div id="insta_1">
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_5.jpg"></a></div>
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_6.jpg"></a></div>
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_7.jpg"></a></div>
-                        <div><a href=""><img src="사이트이미지/인스타이미지/insta_8.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_5.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_6.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_7.jpg"></a></div>
+                        <div><a href=""><img src="<%=contextPath %>/resources/img/main/insta_8.jpg"></a></div>
                     </div>
                 </div>
                 </div>

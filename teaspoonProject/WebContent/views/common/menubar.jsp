@@ -8,9 +8,9 @@
 <title>Insert title here</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../resources/css/common/reset.css">
-    <link rel="stylesheet" href="../../resources/css/common/menubar.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="<%=contextPath%>/resources/css/common/menubar.css">
+    <link rel="stylesheet" href="<%=contextPath%>/resources/css/common/reset.css">
+    <script src="https://ajax.googl/eapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +18,7 @@
         <div id="header">
             <div id="header_wrap">
                 <div id="header_1">
-                    <a href=""><img id="home-logo" src= "사이트이미지/메인/logo.png"></a>
+                    <a href=""><img id="home-logo" src= "<%=contextPath%>/resources/img/main/logo.png"></a>
                 </div>
                 <div id="header_2">
                     <ul id="navi">
@@ -52,11 +52,11 @@
                 </div>
                 <div id="header_3">
                     
-                    <img id="search_icon" src="사이트이미지/메인/검색.png">
+                    <img id="search_icon" src="<%=contextPath%>/resources/img/main/search.png">
                     <div id="search">
                         
                     </div>
-                    <img id="myPage_icon" src="사이트이미지/메인/마이페이지.png">
+                    <img id="myPage_icon" src="<%=contextPath%>/resources/img/main/mypage.png">
                     <div id="header_mypage">
                         <ul>
                             <li id="login_li"><button id="login">로그인</button></li>
@@ -68,7 +68,7 @@
                             <li style="border-bottom: none;">1:1문의</li>
                         </ul>
                     </div>
-                    <a href="#" id="basket_icon"><img src="사이트이미지/메인/장바구니.png"></a>
+                    <a href="#" id="basket_icon"><img src="<%=contextPath%>/resources/img/main/cart.png"></a>
                 </div>
             </div>
        </div>

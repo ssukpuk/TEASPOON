@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
-<link rel="stylesheet" href="../../resources/css/common/footer.css">
-<link rel="stylesheet" href="../../resources/css/common/reset.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/common/footer.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/common/reset.css">
 </head>
 <body>
 <div id="content7">
@@ -29,7 +29,7 @@
     <div class="contaniner">
         <div id="foot">
             <div class="ft_logo"> 
-                <img src="../../resources/img/main/foot_logo.png">
+                <img src="<%=contextPath%>/resources/img/main/foot_logo.png">
             </div>
             <div class="ft_content">
                 <ul>
@@ -47,9 +47,9 @@
                 </p>
             </div>
             <div class="ft_quick">
-                <a href="#"><img src="../../resources/img/main/loca.png"></a>
-                <a href="#"><img src="../../resources/img/main/insta.png"></a>
-                <a href="#"><img src="../../resources/img/main/chat.png"></a>
+                <a href="#"><img src="<%=contextPath%>/resources/img/main/loca.png"></a>
+                <a href="#"><img src="<%=contextPath%>/resources/img/main/insta.png"></a>
+                <a href="#"><img src="<%=contextPath%>/resources/img/main/chat.png"></a>
             </div>
         </div>
     </div>

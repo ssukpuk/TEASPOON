@@ -19,8 +19,8 @@
 <div id="wrap">
         <%@ include file="../common/menubar.jsp" %>
         <!-- //header -->
-        <br clear="both">
-        <div id="banner" >
+        <div></div>
+        <div id="banner">
             <div class="contaniner title">이벤트</div>
         </div>
         <!-- //banner -->
