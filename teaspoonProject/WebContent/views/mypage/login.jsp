@@ -5,13 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="login_css.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/mypage/login_css.css">
 </head>
 <body>
 <div id="wrap">
-        <div id="header">
-            <div class="contaniner">여기는메뉴바</div>
-        </div>
+        <%@ include file="../common/menubar.jsp" %>
         <div id="content">
             <!-- product -->
             <div id="content1">
@@ -32,7 +30,7 @@
                             <fieldset>
                             <ul>
                              <li><input type="text"placeholder="아이디" title="아이디입력"></li>
-                             <li><input type="password"placeholder="비밀번호" title="비밀번호입력"</li>
+                             <li><input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
                             
                              <li><button>로그인</button></li>
                             </ul> 
@@ -52,7 +50,7 @@
                             <fieldset>
                             <ul>
                              <li><input type="text"placeholder="주문번호" title="주문번호"></li>
-                             <li><input type="password"placeholder="주문자연락처" title="주문자연락처"</li>
+                             <li><input type="password"placeholder="주문자연락처" title="주문자연락처"></li>
                             
                              <li><button>로그인</button></li>
                             </ul> 
