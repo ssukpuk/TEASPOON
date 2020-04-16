@@ -41,7 +41,12 @@
                                <td><input type="text" size="7px"></td>
                                <td><input type="text" size="7px"></td>
                                <td><input type="text" size="7px"></td>
-                               <td><input type="text" size="7px"></td>
+                              
+                            </tr>
+                             <tr>
+                            	<td>노출값</td>
+                            	<td><input type="radio" name="status" value="Y">Y</td>
+                            	<td><input type="radio" name="status" value="N">N</td>
                             </tr>
                             <tr >
                                 <th>대표이미지</th>
