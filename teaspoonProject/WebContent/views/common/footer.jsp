@@ -9,6 +9,7 @@
 <title>Document</title>
 <link rel="stylesheet" href="../../resources/css/common/reset.css">
 <link rel="stylesheet" href="../../resources/css/common/footer.css">
+<link rel="stylesheet" href="../../resources/css/common/reset.css">
 </head>
 <body>
 <div id="content7">
@@ -29,11 +30,11 @@
     <div class="contaniner">
         <div id="foot">
             <div class="ft_logo"> 
-                <img src="사이트이미지/메인/foot_logo.png">
+                <img src="../../resources/img/main/foot_logo.png">
             </div>
             <div class="ft_content">
                 <ul>
-                    <li style="padding-left: 0;"><a href="#">브랜드소개</a></li>
+                    <li style="padding-left: 0"><a href="#">브랜드소개</a></li>
                     <li><a href="#">서비스 이용약관</a></li>
                     <li><a href="#">개인정보 처리방침</a></li>
                     <li><a href="#">영상정보 처리방침</a></li>
@@ -47,9 +48,9 @@
                 </p>
             </div>
             <div class="ft_quick">
-                <a href="#"><img src="사이트이미지/메인/loca.png"></a>
-                <a href="#"><img src="사이트이미지/메인/chat.png"></a>
-                <a href="#"><img src="사이트이미지/메인/insta.png"></a>
+                <a href="#"><img src="../../resources/img/main/loca.png"></a>
+                <a href="#"><img src="../../resources/img/main/insta.png"></a>
+                <a href="#"><img src="../../resources/img/main/chat.png"></a>
             </div>
         </div>
     </div>
