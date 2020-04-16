@@ -20,7 +20,7 @@
 	<div id="wrap">
         <%@ include file="../common/menubar.jsp" %>
         <!-- //header -->
-        <div style="height:115px"></div>
+       <!--  <div style="height:115px"></div> -->
         <div id="banner">
             <div class="contaniner">
                 <b><p style="font-size:40px;">CUP & ITEM</p></b>
