@@ -30,17 +30,12 @@
                             <td>001</td>
                         </tr>
                         <tr>
-                            <th >신고자번호</th>
-                            <td>111</td>
-                            <th>아이디</th>
+                            <th>신고한회원</th>
+                            <td>user02</td>
+                            <th>신고당한회원</th>
                             <td>user01</td>
                         </tr>
-                        <tr>
-                            <th>피신고자번호</th>
-                            <td>111</td>
-                            <th>아이디</th>
-                            <td>user01</td>
-                        </tr>
+                      
                         <tr>
                             <th>회원명</th>
                             <td>아무개</td>
