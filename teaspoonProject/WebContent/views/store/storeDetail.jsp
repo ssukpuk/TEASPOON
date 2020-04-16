@@ -59,7 +59,7 @@
                                         <hr>
                                         <p><b>&gt; 얼마나 담아드릴까요?</b></p>
                                         <form>
-                                            <input type="radio" id="small" name="amount" value="small">
+                                            <input type="radio" id="small" name="amount" value="small" checked>
                                             <label for="small">200g (￦18,000) 주말에 한두잔 가벼운 커피타임</label><br>
                                             <input type="radio" id="medium" name="amount" value="medium">
                                             <label for="medium">400g (￦30,000) 하루 한 잔의 커피</label><br>
