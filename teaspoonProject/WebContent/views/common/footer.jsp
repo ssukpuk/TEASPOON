@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
-<link rel="stylesheet" href="../../resources/css/reset.css">
 <link rel="stylesheet" href="../../resources/css/footer.css">
 </head>
 <body>
@@ -23,8 +22,7 @@
                 </table>
             </div>
         </div>
-    </div>
-    </div>
+</div>
     <!-- //content-->
     <div id="footer">
     <div class="contaniner">

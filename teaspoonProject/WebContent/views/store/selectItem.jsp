@@ -5,8 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="selectItem copy.css">
-    <link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="../../resources/css/store/selectItem copy.css">
+    <link rel="stylesheet" href="../../resources/css/common/reset.css">
+    <link rel="styleSheet" href="../../resources/css/common/menubar.css">
+	<link rel="styleSheet" href="../../resources/css/common/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
@@ -17,9 +19,7 @@
 </head>
 <body>
 <div id="wrap">
-        <div id="header">
-            <div class="contaniner">여기는메뉴바</div>
-        </div>
+		<%@ include file="../common/menubar.jsp" %>
         <!-- //header -->
         <div id="banner">
             <div class="contaniner">
@@ -535,6 +535,7 @@
             <div class="contaniner">footer</div>
         </div>
         <!-- //footer-->
+        <%@ include file="../common/footer.jsp" %>
     </div>
 
     <script>
