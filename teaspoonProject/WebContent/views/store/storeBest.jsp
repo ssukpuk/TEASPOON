@@ -10,26 +10,19 @@
 <link rel="styleSheet" href="../../resources/css/common/menubar.css">
 <link rel="styleSheet" href="../../resources/css/common/footer.css">
 <style>
-        #banner {height: 270px; line-height: 270px; background:url("스토어-7.jpg") center top no-repeat;}
-        /*전체레이아웃*/
-a{text-decoration: none; color: black;}
-#wrap {text-align: center; font-size: 30px; color: #000000;}
-#content {line-height: inherit; background: #ead5ee;}
-.contaniner {width: 1200px; margin: 0 auto; height: inherit;}
-.contaniner  #head_title{ color: black; font-size: 45px; font-weight: bold;}
-#content1 {width:100%; height:2300px;background: #ffffff; }
-#productArea {height:inherit; margin: 0 100px;}
-.p1 {margin-left:50px; margin-right:50px;}
-.fr {float:right}
-    </style>
+	#content1 {width:100%; height:2300px;background: #ffffff; }
+	#banner {height: 270px; line-height: 270px; background:url("../../resources/img/store/storetop_best.jpg") center top no-repeat;}
+</style>
 </head>
 <body>
 <div id="wrap">
          <%@ include file="../common/menubar.jsp" %>
+         
         <!-- //header -->
+        <div style="height:115px"></div>
         <div id="banner">
             <div class="contaniner">
-                <b><p id="head_title">Weekly Best</p></b>
+                <b><p style="font-size:40px;">Weekly Best</p></b>
             </div>
         </div>
         <!-- //banner -->
@@ -39,7 +32,7 @@ a{text-decoration: none; color: black;}
                 <div class="contaniner">
                     <div id="productArea">
                         <div>
-                            <p id="head_title2" style="margin-top: 150px; font-size: 36px; color: black;">
+                            <p id="head_title2" style="margin-top: 100px; font-size: 36px; color: black;">
                                 <b>한주의 베스트 상품을 만나보세요</b>
                             </p>
                         </div>

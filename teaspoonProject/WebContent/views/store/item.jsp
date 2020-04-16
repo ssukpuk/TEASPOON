@@ -12,21 +12,18 @@
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <style>
-	#banner {height: 270px; line-height: 270px; background:url("스토어-7.jpg") center top no-repeat;}
-	/*전체레이아웃*/
-    #content1 {width:100%; height:2300px;background: #ffffff; }
-    #productArea {height:inherit; margin: 0 100px;}
-    .p1 {margin-left:50px; margin-right:50px;}
-    .fr {float:right}
+	#content1 {width:100%; height:1800px;background: #ffffff; }
+	#banner {height: 270px; line-height: 270px; background:url("../../resources/img/store/storetop_item.jpg") center top no-repeat;}
 </style>
 </head>
 <body>
 	<div id="wrap">
         <%@ include file="../common/menubar.jsp" %>
         <!-- //header -->
+        <div style="height:115px"></div>
         <div id="banner">
             <div class="contaniner">
-                <b><p id="head_title">CUP & ITEM</p></b>
+                <b><p style="font-size:40px;">CUP & ITEM</p></b>
             </div>
         </div>
         <!-- //banner -->

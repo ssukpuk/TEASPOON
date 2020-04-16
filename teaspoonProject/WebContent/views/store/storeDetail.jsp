@@ -10,21 +10,13 @@
 <link rel="styleSheet" href="../../resources/css/common/menubar.css">
 <link rel="styleSheet" href="../../resources/css/common/footer.css">
 <style>
-        /*전체레이아웃*/
-a{text-decoration: none; color: black;}
-#wrap {text-align: center; font-size: 30px; color: #000000;}
-#content {line-height: inherit; background: #ead5ee;}
-.contaniner {width: 1200px; margin: 0 auto; height: inherit;}
-.contaniner  #head_title{ color: black; font-size: 45px; font-weight: bold;}
-#content1 {width:100%; height:2300px;background: #ffffff; }
-#productArea {height:inherit; margin: 0 100px;}
-.p1 {margin-left:50px; margin-right:50px;}
-.fr {float:right}
-    </style>
+    #content1 {width:100%; height:2300px;background: #ffffff; }
+</style>
 </head>
 <body>
 <div id="wrap">
          <%@ include file="../common/menubar.jsp" %>
+         <div style="height:115px"></div>
         <!-- //header -->
         <div id="banner">
             <div class="contaniner">
