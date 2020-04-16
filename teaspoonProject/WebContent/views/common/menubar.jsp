@@ -18,7 +18,7 @@
         <div id="header">
             <div id="header_wrap">
                 <div id="header_1">
-                    <a href=""><img id="home-logo" src= "사이트이미지/메인/logo.png"></a>
+                    <a href=""><img id="home-logo" src= "../../resources/img/main/logo.png"></a>
                 </div>
                 <div id="header_2">
                     <ul id="navi">
