@@ -138,8 +138,8 @@
    .rd52{width:176px;height:50px;display:table;}
    .rd52>p{display: table-cell;font-size: 17px;vertical-align: middle;text-align: center;word-break: break-all;}
    
-   .rd-board3{float:right;border:1px solid red;}
+   .rd-board3{float:right;}
    .rd-board3>div{}
-   .rd6{width:376px;height:40px;border: 1px solid black;}
-   .rd7{width:376px;height:40px;display:inline-block;border:1px solid red;}
+   .rd6{width:376px;height:40px;}
+   .rd7{width:376px;height:40px;display:inline-block;}
 
