@@ -5,7 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="../../resources/css/mypage/login_css.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/resources/css/mypage/login_css.css">
+<link rel="styleSheet" href="<%=request.getContextPath() %>/resources/css/common/reset.css">
+<link rel="styleSheet" href="<%=request.getContextPath() %>/resources/css/common/menubar.css">
+<link rel="styleSheet" href="<%=request.getContextPath() %>/resources/css/common/footer.css">
 </head>
 <body>
 <div id="wrap">
@@ -53,19 +56,7 @@
     <!--//wrap-->
             
     <script>
-        function openCity(evt, login) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(login).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
+       
     </script>
 </body>
 </html>
