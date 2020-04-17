@@ -5,10 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="../../resources/css/store/selectItem copy.css">
-    <link rel="stylesheet" href="../../resources/css/common/reset.css">
-    <link rel="styleSheet" href="../../resources/css/common/menubar.css">
-	<link rel="styleSheet" href="../../resources/css/common/footer.css">
+	<link rel="stylesheet" href="<%=request.getContextPath() %>/resources/css/store/selectItem.css">
+    <link rel="stylesheet" href="<%=request.getContextPath() %>/resources/css/common/reset.css">
+    <link rel="styleSheet" href="<%=request.getContextPath() %>/resources/css/common/menubar.css">
+	<link rel="styleSheet" href="<%=request.getContextPath() %>/resources/css/common/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
@@ -54,8 +54,8 @@
                                 </div>
                                 <div class="select-text"  border="1">
                                     <div >
-                                        매일로스팅해서<br>
-                                        신선한로스팅커피
+					                                        매일로스팅해서<br>
+					                                        신선한로스팅커피
                                     </div>
                                 </div>
                                 <div class="select-btnwrap" border="1">
@@ -71,8 +71,8 @@
                                 </div>
                                 <div class="select-text"  border="1">
                                     <div  >
-                                        뜨거운 물만 있으면<br>
-                                        되는 간편한 드립커피
+						                                        뜨거운 물만 있으면<br>
+						                                        되는 간편한 드립커피
                                     </div>
                                 </div>
                                 <div class="select-btnwrap" border="1">
@@ -88,8 +88,8 @@
                                 </div>
                                 <div class="select-text"  border="1">
                                     <div >
-                                        냉장고에서 꺼내<br>
-                                        차갑게 따라마시는 커피원액
+					                                        냉장고에서 꺼내<br>
+					                                        차갑게 따라마시는 커피원액
                                     </div>
                                 </div>
                                 <div class="select-btnwrap" border="1">
@@ -105,7 +105,7 @@
 
                         <div id="blendBox" class="box select2-wrap" border="1"  >
                             <div class="select2-title " id="blendsignature" >
-                                어떤맛을 좋아하세요?
+                              		  어떤맛을 좋아하세요?
                             </div>
                             <div class="select-list2"> 
                                 <div class="select-item2">
@@ -118,8 +118,8 @@
                                     </div>
                                     <div class="select-text2"  border="1">
                                         <div >
-                                            세계 각지에서 찾은 보석같은<br>
-                                            싱글오리진.
+						                                            세계 각지에서 찾은 보석같은<br>
+						                                            싱글오리진.
                                         </div>
                                     </div>
                                     <div class="select-btnwrap" border="1">
@@ -136,8 +136,8 @@
                                     </div>
                                     <div class="select-text2"  border="1">
                                         <div >
-                                           견과류의 고소한 맛과 .다크초콜릿<br>
-                                           처럼  묵직한 시그니처 블렌드. <br>
+						                                           견과류의 고소한 맛과 .다크초콜릿<br>
+						                                           처럼  묵직한 시그니처 블렌드. <br>
                                            
                                         </div>
                                     </div>
@@ -155,8 +155,8 @@
                                     </div>
                                     <div class="select-text2"  border="1">
                                         <div >
-                                            자몽같은 과일향이 풍부합니다. <br>
-                                            홍차처럼 깔끔한 시그니처 블렌드.<br>
+						                                            자몽같은 과일향이 풍부합니다. <br>
+						                                            홍차처럼 깔끔한 시그니처 블렌드.<br>
                                         </div>
                                     </div>
                                     <div class="select-btnwrap" border="1">
@@ -170,7 +170,7 @@
                         <!--                 2_2  dripbag -->
                         <div class="box select2-wrap " id="dripbagBox" width="1200"height="550" border="1" ">
                             <div class="select2-title " id="drip">
-                                어떤맛을 좋아하세요?
+                             		   어떤맛을 좋아하세요?
                             </div>
                             <div class="select-list2"> 
                                 <div class="select-item2">
@@ -183,8 +183,8 @@
                                     </div>
                                     <div class="select-text2"  border="1">
                                         <div >
-                                            견과류의 고소한 맛이<br>
-                                            입안 가득 퍼집니다<br>
+							                                            견과류의 고소한 맛이<br>
+							                                            입안 가득 퍼집니다<br>
                                         </div>
                                     </div>
                                     <div class="select-btnwrap" border="1">
@@ -201,8 +201,8 @@
                                     </div>
                                     <div class="select-text2" id="#dr" border="1">
                                         <div >
-                                            오렌지와 자몽같은 과일향이<br>
-                                            풍부한 커피입니다.
+						                                            오렌지와 자몽같은 과일향이<br>
+						                                            풍부한 커피입니다.
                                         </div>
                                     </div>
                                     <div class="select-btnwrap" border="1">
@@ -219,8 +219,8 @@
                                     </div>
                                     <div class="select-text2"  border="1">
                                         <div >
-                                            고소하고 묵직한 맛 & 과일처럼<br>
-                                            화사한 맛을 가진 커피입니다.
+						                                            고소하고 묵직한 맛 & 과일처럼<br>
+						                                            화사한 맛을 가진 커피입니다.
                                         </div>
                                     </div>
                                     <div class="select-btnwrap" border="1">
@@ -531,9 +531,7 @@
         </div>
 
         <!-- //content-->
-        <div id="footer">
-            <div class="contaniner">footer</div>
-        </div>
+        
         <!-- //footer-->
         <%@ include file="../common/footer.jsp" %>
     </div>
